@@ -666,16 +666,11 @@ The above command should also create the file `.xinputrc` if it does not exist a
 
     run_im ibus
 
-Clone this repository and then install the input method
+Clone this repository and install the input method
 
     sudo ./ibus-install.sh
 
-*If you want to install both the* `ibus-latex-table` *input method and the input method provided
-by this repository, you must give it a name other than the default* `latex`.  *Do something like this instead:*
-
-    sudo ./ibus-install.sh latex2
-
-Log out of X Windows and log back in.  There should be a keyboard symbol in the menu bar.  Click on the symbol and select `Preferences`.  Under the `Input Methods` tab, select the `Customize active input methods` checkbox.  Then in the `Select an input method` drop down, select `Other`.  Find the latex input method and add it.
+Go to you system keyboard settings and add the LaTeX keyboard under the English language.
 
 
 <a name="x-howto"/>
