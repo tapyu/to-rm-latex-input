@@ -654,11 +654,11 @@ installation
 
 The following procedure works on Ubuntu 22.04.3.
 
-Install the necessary packages:
+Install the necessary packages [CAVEAT: I am not sure whether it is really necessary]:
 
     $ sudo apt-get install im-config ibus-table ibus-table-latex
 
-This command launches a pop-up window to choose the input method configuration.  Choose `ibus`:
+This command launches a pop-up window to choose the input method configuration.  Choose `ibus` [CAVEAT: I am not sure whether it is really necessary]:
 
     im-config
 
