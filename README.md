@@ -666,7 +666,7 @@ The above command should also create the file `.xinputrc` if it does not exist a
 
     run_im ibus
 
-Then install the input method
+Clone this repository and then install the input method
 
     sudo ./ibus-install.sh
 
